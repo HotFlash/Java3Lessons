@@ -1,11 +1,110 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="e1a37b9e-cc7f-45ed-aaa8-e513c4295911" name="Changes" comment="" />
+    <list default="true" id="e1a37b9e-cc7f-45ed-aaa8-e513c4295911" name="Changes" comment="HomeWork1 v1">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_18_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_18_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_base_18_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_base_mac_aarch64_18_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_controls_18_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_controls_mac_aarch64_18_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_fxml_18_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_fxml_mac_aarch64_18_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_graphics_18_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_graphics_mac_aarch64_18_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_36.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xerial_sqlite_jdbc_3_34_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/maven_wrapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqlDataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientChat/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientChat/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientChat/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientChat/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientChat/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientChat/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientChat/src/main/java/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientChat/src/main/java/com/newage/clientchat/ClientChat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientChat/src/main/java/com/newage/clientchat/Launcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientChat/src/main/java/com/newage/clientchat/controllers/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientChat/src/main/java/com/newage/clientchat/controllers/ClientController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientChat/src/main/java/com/newage/clientchat/dialogs/Dialogs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientChat/src/main/java/com/newage/clientchat/model/Network.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientChat/src/main/java/com/newage/clientchat/model/ReadMessageListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientChat/src/main/resources/com/newage/clientchat/authDialog.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientChat/src/main/resources/com/newage/clientchat/chat-template.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Commands/Commands.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Commands/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Commands/src/com/newage/command/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Commands/src/com/newage/command/CommandType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Commands/src/com/newage/command/commands/AuthCommandData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Commands/src/com/newage/command/commands/AuthOkCommandData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Commands/src/com/newage/command/commands/ClientMessageCommandData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Commands/src/com/newage/command/commands/ErrorCommandData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Commands/src/com/newage/command/commands/PrivateMessageCommandData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Commands/src/com/newage/command/commands/PublicMessageCommandData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Commands/src/com/newage/command/commands/UpdateUserListCommandData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Commands/src/com/newage/command/commands/UpdateUsername.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Commands/src/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/Server.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/db/history_db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/db/users_db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/logs/server.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/ServerApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/chat/ClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/chat/LogService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/chat/MyServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/chat/auth/AuthService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/chat/auth/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="ProjectId" id="2DR6cwLJ3RG2Unsyz2QnYecIpok" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -15,10 +114,74 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/roman/Desktop/Java3Lessons/Java3Lessons/Server/src/chat",
+    "project.structure.last.edited": "Problems",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Server/src/chat" />
+      <recent name="$PROJECT_DIR$/Server" />
+      <recent name="$PROJECT_DIR$/Commands" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/HomeWork1" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Launcher">
+    <configuration name="ClientChat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.newage.clientchat.ClientChat" />
+      <module name="ClientChat" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.newage.clientchat.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Launcher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.newage.clientchat.Launcher" />
+      <module name="ClientChat" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.newage.clientchat.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServerApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ServerApp" />
+      <module name="Server" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Launcher" />
+        <item itemvalue="Application.ServerApp" />
+        <item itemvalue="Application.ClientChat" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -27,7 +190,37 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1660649632148</updated>
+      <workItem from="1661431953852" duration="1419000" />
+      <workItem from="1661433403088" duration="47000" />
+      <workItem from="1661433459072" duration="4062000" />
+      <workItem from="1661441202200" duration="5881000" />
     </task>
+    <task id="LOCAL-00001" summary="HomeWork1 v1">
+      <created>1660649813943</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1660649813943</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="HomeWork1 v1" />
+    <option name="LAST_COMMIT_MESSAGE" value="HomeWork1 v1" />
   </component>
 </project>
