@@ -1,3 +1,5 @@
+package HomeWork_Leeson1;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -27,9 +29,9 @@ class Box<T extends Fruit> {
 
     void info() {
         if (list.isEmpty()) {
-            System.out.println("Box is empty");
+            System.out.println("HomeWork_Leeson1.Box is empty");
         } else {
-            System.out.println("Box contain: " + list.get(0).toString() + " in amount of: " + list.size());
+            System.out.println("HomeWork_Leeson1.Box contain: " + list.get(0).toString() + " in amount of: " + list.size());
         }
     }
 

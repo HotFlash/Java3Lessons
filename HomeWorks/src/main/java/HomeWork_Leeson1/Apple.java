@@ -1,3 +1,5 @@
+package HomeWork_Leeson1;
+
 public class Apple extends Fruit{
     Apple() {
         super(1.0f);
@@ -5,6 +7,6 @@ public class Apple extends Fruit{
 
     @Override
     public String toString(){
-        return "Apple";
+        return "HomeWork_Leeson1.Apple";
     }
 }

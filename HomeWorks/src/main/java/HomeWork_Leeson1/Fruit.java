@@ -1,3 +1,5 @@
+package HomeWork_Leeson1;
+
 abstract class Fruit {
     private float weight;
 

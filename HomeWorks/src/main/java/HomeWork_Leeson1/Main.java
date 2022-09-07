@@ -1,3 +1,5 @@
+package HomeWork_Leeson1;
+
 import java.util.Arrays;
 import java.util.List;
 
@@ -43,9 +45,9 @@ public class Main {
         float WeigthBoxOrange2 = boxOrange2.getWeight();
         float WeigthBoxApple = boxApple.getWeight();
         System.out.println("Weights: \n ");
-        System.out.println("Orange Box 1 weight: " + weigthBoxOrange1);
-        System.out.println("Orange Box 2 weight: " + WeigthBoxOrange2);
-        System.out.println("Apple Box  weight: " + WeigthBoxApple);
+        System.out.println("HomeWork_Leeson1.Orange HomeWork_Leeson1.Box 1 weight: " + weigthBoxOrange1);
+        System.out.println("HomeWork_Leeson1.Orange HomeWork_Leeson1.Box 2 weight: " + WeigthBoxOrange2);
+        System.out.println("HomeWork_Leeson1.Apple HomeWork_Leeson1.Box  weight: " + WeigthBoxApple);
         System.out.println("Compartment: \n ");
         System.out.println("Compare boxOrange1 VS boxApple: " + boxOrange1.compare(boxApple));
         System.out.println("Compare boxOrange2 VS boxApple: " + boxOrange2.compare(boxApple));
