@@ -57,6 +57,15 @@ public class AuthController {
                     String userName = data.getUserName();
                     Platform.runLater(() -> {
                         ClientChat.getInstance().switchToMainChatWindow(userName);
+                        try {
+                            ClientChat.getInstance().readLogFile("Chat/ChatLogs/" + ClientChat.getInstance().getChatStage().getTitle() + ".log");
+                        } catch (IOException e){
+                            try {
+                                throw new IOException(e);
+                            } catch (IOException ex) {
+                                throw new RuntimeException(ex);
+                            }
+                        }
                     });
                 } else {
                     Platform.runLater(() -> {
