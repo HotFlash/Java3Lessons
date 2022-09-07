@@ -8,14 +8,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Commands" />
-        <module name="ClientChat" />
+        <module name="Chat" />
+        <module name="HomeWorks" />
         <module name="Server" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="ClientChat" target="18" />
-      <module name="Commands" target="18" />
-      <module name="Server" target="18" />
     </bytecodeTargetLevel>
   </component>
 </project>
