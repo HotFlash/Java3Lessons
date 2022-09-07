@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DdlMappings">
+    <mapping uuid="50c7d874-ddcd-43aa-be92-3623b1dfd4f0" name="history_db Mapping">
+      <data-sources db="e59210cc-9d75-4816-ac2e-92333372e645" />
+      <scope>
+        <node kind="schema" qname="main" />
+      </scope>
+    </mapping>
+  </component>
+</project>
