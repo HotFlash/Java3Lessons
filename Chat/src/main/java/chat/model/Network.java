@@ -15,7 +15,7 @@ public class Network {
 
     private static Network INSTANCE;
     public static final String SERVER_HOST = "127.0.0.1";
-    public static final int SERVER_PORT = 8190;
+    public static final int SERVER_PORT = 8188;
 
     private String host;
     private int port;
