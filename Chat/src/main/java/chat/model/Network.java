@@ -1,10 +1,10 @@
 package chat.model;
 
+import chat.ClientChat;
+import chat.controllers.ClientController;
 import command.Command;
 
-import java.io.IOException;
-import java.io.ObjectInputStream;
-import java.io.ObjectOutputStream;
+import java.io.*;
 import java.net.Socket;
 import java.util.List;
 import java.util.concurrent.CopyOnWriteArrayList;
@@ -15,7 +15,7 @@ public class Network {
 
     private static Network INSTANCE;
     public static final String SERVER_HOST = "127.0.0.1";
-    public static final int SERVER_PORT = 8188;
+    public static final int SERVER_PORT = 8190;
 
     private String host;
     private int port;
@@ -91,6 +91,8 @@ public class Network {
     public void sendMessage(String message) throws IOException {
         sendCommand(Command.publicMessageCommand(message));
     }
+
+
 
     public void sendAuthMessage(String login, String password) throws IOException {
         sendCommand(Command.authCommand(login, password));

@@ -2,6 +2,7 @@ package chat;
 
 import chat.controllers.AuthController;
 import chat.controllers.ClientController;
+import chat.controllers.FilesHistory;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -10,7 +11,7 @@ import javafx.scene.layout.AnchorPane;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
 
-import java.io.IOException;
+import java.io.*;
 
 public class ClientChat extends Application {
 
@@ -31,6 +32,7 @@ public class ClientChat extends Application {
         getChatStage().show();
         getAuthStage().show();
         getAuthController().initializeMessageHandler();
+
     }
 
     private void initViews() throws IOException {
@@ -62,7 +64,35 @@ public class ClientChat extends Application {
         getChatStage().setTitle(userName);
         getAuthController().close();
         getAuthStage().close();
+        FilesHistory.prepareLogFile();
     }
+
+
+    public void readLogFile(String filename) throws IOException {
+
+        BufferedReader bufferedReader = null;
+        FileReader logfile = null;
+        try {
+            logfile = new FileReader(filename);
+        } catch (FileNotFoundException e) {
+            throw new RuntimeException(e);
+        }
+        bufferedReader = new BufferedReader(logfile);
+        String line;int
+                count = 0;
+            while ((line = bufferedReader.readLine()) != null && count <= 99) {
+                    getChatController().chatTextArea.appendText(line);
+                    getChatController().chatTextArea.appendText(System.lineSeparator());
+                    count++;
+            }
+
+            bufferedReader.close();
+            logfile.close();
+    }
+
+
+
+
 
     @Override
     public void init() {
