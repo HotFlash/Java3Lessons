@@ -3,7 +3,9 @@ package chat.controllers;
 
 import chat.ClientChat;
 import java.io.*;
-import java.io.IOException;
+import java.nio.charset.StandardCharsets;
+import java.util.ArrayList;
+import java.util.List;
 
 
 public class FilesHistory {
@@ -32,5 +34,24 @@ public class FilesHistory {
             throw new RuntimeException(e);
         }
     }
+
+//    public static String loadHistory(String username){
+//        StringBuilder stb = new StringBuilder();
+//        int linesToRead = 100;
+//        List<String> result = new ArrayList<>();
+//        try (ReversedLinesFileReader reader = new ReversedLinesFileReader(new File("Chat/ChatLogs/" + username + ".log"), StandardCharsets.UTF_8)) {
+//
+//            String line;
+//            while ((line=reader.readLine()) != null && result.size() < linesToRead){
+//                result.add(line);
+//            }
+//        } catch (IOException e) {
+//            e.printStackTrace();
+//        }
+//        for (String str : result) {
+//            stb.insert(0,linesToRead-- + ")" + str + "\n");
+//        }
+//        return stb.toString();
+//    }
 
 }
